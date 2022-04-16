@@ -19,7 +19,7 @@ Fast static HTML/CSS/JS/Resource generation from react things
 ## 🚀 Scripts
 
 - `npm run dev` - Run hot-reloading dev server at [http://localhost:3000](http://localhost:3000).
-- `npm run export` - Builds the app for production to the `./out` folder.
+- `npm run export` - Builds static HTML/CSS/JS/Resource to the `./out` folder.
 - `npm run serve` - Test serve `./out` folder in [http://localhost:3000](http://localhost:3000).
 - `npm run lint` - Do eslint test
   - `npm run lint:fix` - Try auto fix eslint
