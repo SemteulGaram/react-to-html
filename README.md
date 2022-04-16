@@ -13,7 +13,6 @@ Fast static HTML/CSS/JS/Resource generation from react things
 - [`@emotion/react`](https://emotion.sh/docs/introduction) (CSS-in-JS)
 - [`next-optimized-images`](https://github.com/cyrilwanner/next-optimized-images) (Static image optimization which not implemented in natively. See `next.config.js`)
   - See more about build-time image optimization: [https://github.com/vercel/next.js/discussions/19065](https://github.com/vercel/next.js/discussions/19065)
-  - [`next-compose-plugins`](`https://www.npmjs.com/package/next-compose-plugins`) (for load plugin above)
   - `imagemin-mozjpeg imagemin-optipng imagemin-gifsicle imagemin-svgo svg-sprite-loader webp-loader lqip-loader responsive-loader jimp image-trace-loader` (All for plugin above. IT HAS MASSIVE AUDIT ISSUE EVEN NOT RESOLVED IN LATEST. But you can remove it any desire. See `next.config.js`->`optimizedImages` options)
 - [serve](https://www.npmjs.com/package/serve) (For static serve test)
 
