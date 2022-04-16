@@ -35,5 +35,5 @@ Fast static HTML/CSS/JS/Resource generation from react things
 
 ## 🔧 Knowing issue (Last check 2022.04.17)
 - `next-optimized-images` sometimes build times are prohibitively long or makes error.
-  - Solution: `<img src={require('public/img.png')} />` -> `<img src='/img.png' />`
+  - Solution: `<img src={require('public/img.png')} />` -> `<img src='/img.png' />` to disable image optimization (use image as-is)
 - `next-optimized-images`'s image processing deps has massive audit problem.
